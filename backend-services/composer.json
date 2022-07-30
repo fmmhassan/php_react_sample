@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        
+        "files": [
+            "Configs/helpers.php",
+            "config.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Configs\\": "Configs/",
+            "Contracts\\": "Contracts/"
+        }
+
+    }
+}
